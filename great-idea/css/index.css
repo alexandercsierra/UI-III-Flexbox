@@ -80,10 +80,12 @@ h1, h2, h3, h4, h5 {
 .topDiv {
 	text-align: center;
 	background: white;
-	width: 80%;	
+	width: 100%;	
 	display: flex;
 	align-items: center;
-	justify-content: space-evenly;
+	justify-content: space-between;
+	padding-top: 30px;
+
 }
 
 .navDiv{
@@ -115,15 +117,16 @@ nav a {
 	width: 10%;
 }
 
-.sticky {
+/* .sticky {
 	position: fixed;
 	top: 0;
 	width: 80%;
-  }
+  } */
 
 .services-header-img{
 	width: 100;
-	margin-top: 40px;
+	margin: 25px 0;
+
 }
 .codeimg {
 	margin:0;
@@ -156,6 +159,10 @@ h1{
 	font-size: 75px;
 }
 
+h2 {
+	font-size: 25px;
+}
+
 button {
 	background: white;
 	border: 2px solid grey;
@@ -165,10 +172,18 @@ button {
 
 /* Midsection of website */
 
+.services {
+	margin-bottom: 30px;
+}
+
 hr {
 	color: black;
 	height: 3px;
 	background-color: black;
+}
+
+.serviceSquares {
+	margin-top: 30px;
 }
 
 .uppercontent {
