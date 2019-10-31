@@ -72,16 +72,18 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-	width: 65%;
+	width: 80%;
 	margin: 0 auto;
 
 }
 
 .topDiv {
 	text-align: center;
-	background: #034058;
+	background: white;
 	width: 80%;	
 	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
 }
 
 .navDiv{
@@ -116,9 +118,13 @@ nav a {
 .sticky {
 	position: fixed;
 	top: 0;
-	width: 65%;
+	width: 80%;
   }
 
+.services-header-img{
+	width: 100;
+	margin-top: 40px;
+}
 .codeimg {
 	margin:0;
 	width: 90%;
@@ -157,6 +163,8 @@ button {
 	margin: 10px auto;
 }
 
+/* Midsection of website */
+
 hr {
 	color: black;
 	height: 3px;
@@ -192,6 +200,8 @@ hr {
 	display:flex;
 	justify-content: space-evenly;
 }
+
+/* Lower section of website */
 
 footer {
 	margin-top: 40px;
