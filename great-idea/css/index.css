@@ -187,19 +187,31 @@ hr {
 	display:flex;
 }
 
-.column {
+.columnLeft, .columnRight {
 	display:flex;
 	flex-direction: column;
 }
 
+.columnRight {
+	align-items: flex-end;
+}
+ 
 
-.column div {
+.columnLeft div {
 	background-color: #e6e2df;
-	margin: 20px;
+	margin: 20px 0;
 	border: 1px solid black;
 	padding: 20px;
-	width: 80%;
-}
+	width: 90%;
+} 
+
+.columnRight div {
+	background-color: #e6e2df;
+	margin: 20px 0;
+	border: 1px solid black;
+	padding: 20px;
+	width: 90%;
+} 
 
 .learnButton{
 	border-radius: 5px;
