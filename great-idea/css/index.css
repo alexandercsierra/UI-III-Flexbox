@@ -64,3 +64,141 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+* {
+	border: solid red 1px !important;
+	max-width: 100%;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+	width: 65%;
+	margin: 0 auto;
+
+}
+
+.topDiv {
+	text-align: center;
+	background: #034058;
+	width: 80%;	
+	display: flex;
+}
+
+.navDiv{
+	width: 70%;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.logoDiv {
+	width: 20%;
+	height: 100%;
+	vertical-align: middle;
+}
+
+nav {
+	margin: 10px;
+	text-align: center;
+	width: 100%;
+	padding: 0;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+nav a {
+	color: grey;
+	text-decoration: none;
+	font-size: 15px;
+	width: 10%;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 65%;
+  }
+
+.codeimg {
+	margin:0;
+	width: 90%;
+}
+
+.banner {
+	padding:0;
+	width: 100%;
+	text-align: center;
+	margin: 50px auto;
+	margin-top: 130px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.bannerParts {
+	padding: 0px;
+	text-align: center;
+	width: 40%;
+	margin: 0px;
+	height: 100%;
+	vertical-align: middle;
+
+}
+
+h1{
+	text-align: center;
+	font-size: 75px;
+}
+
+button {
+	background: white;
+	border: 2px solid grey;
+	padding: 5px 30px;
+	margin: 10px auto;
+}
+
+hr {
+	color: black;
+	height: 3px;
+	background-color: black;
+}
+
+.uppercontent {
+
+	/* padding: 20px 10px; */
+	margin: 0 20px;
+
+}
+
+.upperContentContainer {
+	/* width: 40%; */
+	display: flex;
+	justify-content: space-around;
+	
+	/* margin: 20px !important; */
+}
+
+.centerImg {
+	text-align: center;
+	margin: 20px;
+}
+
+.lowerContent {
+	width: 30%;
+	padding: 20px 10px;
+}
+
+.para3 {
+	display:flex;
+	justify-content: space-evenly;
+}
+
+footer {
+	margin-top: 40px;
+}
+
+.copyright {
+	font-size: 13px;
+	text-align: center;
+	margin: 60px auto;
+}
