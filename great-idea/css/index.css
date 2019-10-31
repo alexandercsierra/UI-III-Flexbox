@@ -218,18 +218,13 @@ hr {
 }
 
 .uppercontent {
-
-	/* padding: 20px 10px; */
 	margin: 0 20px;
 
 }
 
 .upperContentContainer {
-	/* width: 40%; */
 	display: flex;
 	justify-content: space-around;
-	
-	/* margin: 20px !important; */
 }
 
 .centerImg {
